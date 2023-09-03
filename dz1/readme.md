@@ -35,11 +35,11 @@ export TF_VAR_yc_token=$YC_TOKEN
 
 2. Устанавливаю Terraform, использую личный vpn по инструкции https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
-3. Устанавливаю Ansible, создаю ключ ssh
+3. Обновляю пакеты системы до актуальных, Устанавливаю Ansible, создаю ключ ssh
 
 
 ```bash
-
+apt update && apt upgrade -y
 apt install ansible
 ssh-keygen
 
