@@ -14,7 +14,8 @@
 
 ---
 
-Выполняю на ubuntu 20.04 в среде WSL под Windows 10
+Выполняю на ubuntu/debian в среде WSL под Windows  
+все комманды вводятся из под root пользователя
 
 ---
 
@@ -34,11 +35,13 @@ export TF_VAR_yc_token=$YC_TOKEN
 
 2. Устанавливаю Terraform, использую личный vpn по инструкции https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
-3. Устанавливаю Ansible
+3. Устанавливаю Ansible, создаю ключ ssh
+
 
 ```bash
 
 apt install ansible
+ssh-keygen
 
 ```
 
