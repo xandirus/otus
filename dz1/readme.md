@@ -105,4 +105,4 @@ terraform apply
 
 ```
 
-В результате terraform выдаст external_ip, пройдя в браузере по которому увижу работающий nginx "it works!"
+В результате terraform создаст виртуальную машину, установит на нее ngnix с помощью ansible и выдаст external_ip_address_vm_1 = "внешний ip", пройдя по которому увижу работающий nginx "Welcome to nginx!"
