@@ -1,0 +1,4 @@
+pm_api_url = "https://10.10.10.233:8006/api2/json"
+cloudinit_template_name = "focal-server-cloudimg-template"
+proxmox_node = "pve-dz"
+ssh_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDK+FT5BXHnOp9ROi8qrbNkyuk+3kT567/O+SQSkMo6IcggwWkdfZEqHHcp9HKFqqOBBvU+UgI0AdmC7DLhe5bQgoYpGN0yAZoJ0/LJwhY1rL8Xoe/0S1WykesmU/bt2+UR7xCRyfucnEauOCpC7G3dWhcO+zAez03GZgQs6YaJ2tpvRA547xKpoRoZKEmrfPZNM27N6j8H6mBCYO9/lyvR9K6UwDl/gN3sG1H/1wfs3LdIjbWhG7UIuNbVj66CaNfS3EM9qLqO/vyl9tDyksw+RJaFwBFR7JJKdR8XhGdMKBi6ok4pazgfUOky+pqAW5Dgbvnv69BXjEkZXXdHS2FSSNN9gN7KgxrflHZ5erND0N9b0y4HKECLJEpR6cxVQGclRDwg6qmMG2rYNf2EZ02ZMxTy03867AFHrVMFe3ZKlpCcMpNg0/gSOtutunARoIDljhMaXFkXT1nue+jLXF4jMa691P1IpRycXlW4AUh89gm4Twt6ISJYG1Jcz/dDgQU="
