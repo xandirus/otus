@@ -95,7 +95,7 @@ storage = "название хранилища, где лежит образ clo
 export PM_USER="terraform_user@pve"
 export PM_PASS="secure1234"
 ```
-
+`terraform init`
 
 3. запуск деплоя
 
@@ -107,7 +107,7 @@ export PM_PASS="secure1234"
 
 Если нет ошибок, запукскаем деплой
 
-`terraform init`
+`terraform apply`
 
 4. после создания виртуальной машины, можно подключится к ней по ssh:  
 `ssh -i ~/.ssh/id_rsa root@10.10.10.236`
