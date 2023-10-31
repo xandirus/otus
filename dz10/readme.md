@@ -111,3 +111,5 @@ export PM_PASS="secure1234"
 
 4. после создания виртуальной машины, можно подключится к ней по ssh:  
 `ssh -i ~/.ssh/id_rsa root@10.10.10.236`
+
+![screen prox1](https://github.com/xandirus/otus/blob/master/dz10/dz10-scr1.png)
